@@ -7,7 +7,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question("What's your name? Nicknames are also acceptable :) ", (answer) => {
+rl.question("What's your name? Nicknames are also acceptable :) ", (answer) =>  {
   answers.push(answer);
   rl.close();
 
